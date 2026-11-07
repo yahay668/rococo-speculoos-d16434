@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+name: github
+repo: yahay668/rococo-speculoos-d16434
   branch: main
 
 local_backend: true
