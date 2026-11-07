@@ -1,0 +1,51 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+locale: ar
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+publish_mode: editorial_workflow
+
+collections:
+  - name: "homepage"
+    label: "الصفحة الرئيسية"
+    files:
+      - label: "محتوى الصفحة الرئيسية"
+        name: "home"
+        file: "content/home.json"
+        format: "json"
+        fields:
+          - { label: "العنوان الرئيسي", name: "title", widget: "string" }
+          - { label: "النص التعريفي", name: "intro", widget: "text" }
+          - { label: "صورة الخلفية", name: "background_image", widget: "image" }
+
+  - name: "portfolio"
+    label: "معرض الأعمال"
+    files:
+      - label: "العقارات والعروض"
+        name: "gallery"
+        file: "content/gallery.json"
+        format: "json"
+        fields:
+          - label: "العروض"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "الصورة", name: "image", widget: "image" }
+              - { label: "عنوان المشروع", name: "title", widget: "string" }
+              - { label: "وصف قصير", name: "description", widget: "text" }
+
+  - name: "contact"
+    label: "معلومات التواصل"
+    files:
+      - label: "بيانات التواصل"
+        name: "contact"
+        file: "content/contact.json"
+        format: "json"
+        fields:
+          - { label: "رقم الجوال", name: "phone", widget: "string" }
+          - { label: "البريد الإلكتروني", name: "email", widget: "string" }
+          - { label: "رابط الواتساب", name: "whatsapp", widget: "string" }

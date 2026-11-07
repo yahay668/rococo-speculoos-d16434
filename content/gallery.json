@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "image": "/assets/villa-almalqa.webp",
+      "title": "فيلا عصرية - حي الياسمين",
+      "description": "فيلا عصرية بمواصفات مميزة في حي الياسمين بالرياض."
+    },
+    {
+      "image": "/assets/apartment-alnakheel.webp",
+      "title": "شقة فاخرة - حي النخيل",
+      "description": "شقة فاخرة مناسبة للسكن في حي النخيل بالرياض."
+    },
+    {
+      "image": "/assets/land-aldiyar.webp",
+      "title": "أرض سكنية - حي الملقا",
+      "description": "أرض سكنية في شمال الرياض."
+    },
+    {
+      "image": "/assets/office-olaya.webp",
+      "title": "مكتب إداري - برج العليا",
+      "description": "مكتب إداري في حي العليا."
+    },
+    {
+      "image": "/assets/villa-qurtubah.webp",
+      "title": "فيلا بحديقة - حي قرطبة",
+      "description": "فيلا بحديقة في حي قرطبة."
+    },
+    {
+      "image": "/assets/apartment-al-sahafa.webp",
+      "title": "شقة استثمارية - حي الصحافة",
+      "description": "شقة استثمارية في حي الصحافة."
+    },
+    {
+      "image": "/assets/land-othman.webp",
+      "title": "أرض تجارية - طريق عثمان",
+      "description": "أرض تجارية بموقع مميز على طريق عثمان."
+    }
+  ]
+}
